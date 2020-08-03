@@ -20,7 +20,7 @@
                 
                 <h1>Register Account</h1>
                 
-                <form action="RegisterServlet" method="post">
+                <form action="registerServlet" method="post">
                     
                     <p>Full Name</p>
                     <input type="text" placeholder="Full Name Here" name="fullname" required>
@@ -32,10 +32,11 @@
                     <input type="text" placeholder="Address" name="address" required>
                     
                     <p>Date of Birth</p>
-                    <input type="date" name="dob" required>
+                    <input type="text" name="dob" required>
                     
                     <p>Date of Registration</p>
-                    <input type="date" name="register" id="theDate" readonly>
+                    <input type="text" name="register">
+<!--                    <input type="date" name="register" id="theDate" readonly>-->
                     
                     <p>Password</p>
                     <input type="password" placeholder="Password" name="password" required>
@@ -48,7 +49,7 @@
         </div>
         
         
-<!--       to pick the current date for registration date -->
+<!--    to pick the current date for registration date -->
         <script>
             var date = new Date();
 
