@@ -41,9 +41,9 @@ public class dbControl {
            set = true;
         }
         
-        catch(Exception e){
-            e.printStackTrace();
+        catch(SQLException e){
         }
+        
         return set;
     }
     
