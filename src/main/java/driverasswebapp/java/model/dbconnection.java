@@ -18,7 +18,8 @@ public class dbconnection {
         
         try{
             //Class.forName("com.mysql.jdbc.Driver");
-            Class.forName("org.apache.derby.jdbc.ClientDriver");
+            //Class.forName("org.apache.derby.jdbc.ClientDriver");
+            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
             con=DriverManager.getConnection("jdbc:derby://localhost:1527/driverapp","ammar","ammar");
             
         }
