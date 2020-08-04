@@ -17,8 +17,9 @@ public class dbconnection {
     public static Connection getConnection(){
         
         try{
-            Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/driverapp","root","Spencer.nk375");
+            //Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("org.apache.derby.jdbc.ClientDriver");
+            con=DriverManager.getConnection("jdbc:derby://localhost:1527/driverapp","ammar","ammar");
             
         }
         catch(Exception e){
