@@ -24,12 +24,14 @@
             <scope>provided</scope>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        
+        <!-- https://mvnrepository.com/artifact/org.apache.derby/derbyclient -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.20</version>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.15.2.0</version>
         </dependency>
+
 
     </dependencies>
     
